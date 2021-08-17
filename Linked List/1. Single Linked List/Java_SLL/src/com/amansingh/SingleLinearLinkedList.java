@@ -3,12 +3,13 @@ package com.amansingh;
 /**
  *
  * @author Aman Singh
+ * @param <T>
  */
 public interface SingleLinearLinkedList<T> {
 
     /**
      * Append the Node to the List
-     * @param record
+     * @param T
      */
     public void append(final T record);
 
